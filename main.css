@@ -1,6 +1,7 @@
 body {
     padding-top: 50px;
     padding-bottom: 30px;
+    background-color: rgba(81, 56, 81, 0.15)
 }
 
 .topics {
@@ -12,4 +13,17 @@ body {
     border: 1px solid #021a40;
     background-color: #ff0;
     margin-bottom: 20px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+.jumbotron {
+    padding:30px 15px;
+    height:300px;
+    margin-bottom:30px;
+    color: rgba(29, 39, 191, 0.96);
+    background:url('Resources/banner.jpg')
 }

@@ -1,0 +1,15 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.topics {
+    text-align: center;
+}
+
+.topic-img {
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #ff0;
+    margin-bottom: 20px;
+}

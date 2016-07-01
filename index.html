@@ -4,19 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="Library/bootstrap-3.3.6/docs/favicon.ico">
 
     <script src="https://use.fontawesome.com/326285f482.js"></script>
-
+    <script src="topics.js"></script>
     <title>Warframe Equipment Manager</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="Library/bootstrap-3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
     <link href="main.css" rel="stylesheet">
 </head>
 
@@ -42,16 +40,14 @@
                     </div>
                     <button type="submit" class="btn btn-success">Sign in</button>
                 </form>
-            </div><!--/.navbar-collapse -->
+            </div>
         </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
         <div class="container">
             <h1>Warframe Equipment Manager</h1>
             <p>The Warframe Equipment Manager is a simple solution to track and manage your in-game equipment progress without the requirement to switch into your profile everytime you are wondering, if you already have that item.</p>
-            <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
         </div>
     </div>
 
@@ -73,47 +69,10 @@
     <hr>
 
     <div class="container topics">
-        <!-- Different Categories of Equipment -->
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <h2>Warframes</h2>
-                <a href="Equipment/Warframes/warframes.html"><img class="img-rectangle topic-img" src="Resources/Images/Main/warframe.jpg" alt="Generic placeholder image" width="360" height="240"></a>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-6">
-                <h2>Primary Weapons</h2>
-                <a href="#"><img class="img-rectangle topic-img" src="Resources/Images/Main/primary.jpg" alt="Generic placeholder image" width="360" height="240"></a>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-6">
-                <h2>Secondary Weapons</h2>
-                <a href="#"><img class="img-rectangle topic-img" src="Resources/Images/Main/secondary.jpg" alt="Generic placeholder image" width="360" height="240"></a>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-6">
-                <h2>Melee Weapons</h2>
-                <a href="#"><img class="img-rectangle topic-img" src="Resources/Images/Main/melee.jpg" alt="Generic placeholder image" width="360" height="240"></a>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-6">
-                <h2>Sentinels</h2>
-                <a href="#"><img class="img-rectangle topic-img" src="Resources/Images/Main/sentinels.jpg" alt="Generic placeholder image" width="360" height="240"></a>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-6">
-                <h2>Kubrows</h2>
-                <a href="#"><img class="img-rectangle topic-img" src="Resources/Images/Main/kubrows.jpg" alt="Generic placeholder image" width="360" height="240"></a>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-6">
-                <h2>Archwings</h2>
-                <a href="#"><img class="img-rectangle topic-img" src="Resources/Images/Main/archwing.jpg" alt="Generic placeholder image" width="360" height="240"></a>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-6">
-                <h2>Archgun</h2>
-                <a href="#"><img class="img-rectangle topic-img" src="Resources/Images/Main/archgun.jpg" alt="Generic placeholder image" width="360" height="240"></a>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4 col-md-6">
-                <h2>Archmelee</h2>
-                <a href="#"><img class="img-rectangle topic-img" src="Resources/Images/Main/archmelee.jpg" alt="Generic placeholder image" width="360" height="240"></a>
-            </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+        <div class="row" id="main_topics">
+        </div>
+    </div>
 
-    </div> <!-- /container -->
     <hr>
 
     <footer>
@@ -124,11 +83,10 @@
         </ul>
     </footer>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="Library/bootstrap-3.3.6/docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="Library/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+
+    <script> createMain() </script>
 </body>
 </html>

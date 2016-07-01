@@ -46,3 +46,27 @@ input[type="password"] {
 input[type="text"] {
     max-width: 200px;
 }
+
+.clickable {
+    border: 1px solid #333;
+    background: #eee;
+    height: 20px;
+    width: 200px;
+    margin: 15px;
+    position: relative;
+}
+
+.display {
+    height: 16px;
+    position: absolute;
+    width: 100%;
+}
+
+.qprogress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: red;
+    height: 18px;
+    width: 10px;
+}
